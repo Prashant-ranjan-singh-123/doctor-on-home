@@ -1,0 +1,4 @@
+String BRAINTREE_ENV = "sandbox";
+String BRAINTREE_MERCHANT_ID = "8x2htw9jqj88wsyf";
+String BRAINTREE_PUBLIC_KEY = "7zygsk7cw43c3mfk";
+String BRAINTREE_PRIVATE_KEY = " f0153c16d5e9fc55380528445b73ba1b";

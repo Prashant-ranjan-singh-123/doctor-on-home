@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>270708128217-9sect9hpe33fhmp0711el4r7p55g2mql.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.270708128217-9sect9hpe33fhmp0711el4r7p55g2mql</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBe_IGjbL382fWwzWEBGmrHCcD_F7ddpVs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>270708128217</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>doctor.finder.videocalling</string>
+	<key>PROJECT_ID</key>
+	<string>doctor-finder-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doctor-finder-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:270708128217:ios:87ce1b7c0b39a816d401c8</string>
+	<key>DATABASE_URL</key>
+	<string>https://doctor-finder-ios-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

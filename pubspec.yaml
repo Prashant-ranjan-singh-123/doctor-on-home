@@ -1,0 +1,192 @@
+name: appcode3
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 16.0.0+16
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1
+
+# for image
+  video_player: ^2.4.2
+  video_thumbnail: 0.5.2
+  file_picker:
+  image_picker: ^0.8.7+1
+  flutter_image_compress:
+  cached_network_image:
+    git:
+      url: https://github.com/gauravmehta13/flutter_cached_network_image.git
+      path: cached_network_image
+  image_cropper:
+  photo_view:
+
+# for google map
+  hexcolor:
+  geocode: ^1.0.1
+  google_maps_flutter: ^2.4.0
+  geolocator:
+  geocoding: ^2.0.1
+
+# for video calling
+  connectycube_sdk: 2.0.13
+  connectycube_flutter_call_kit: ^2.0.1
+
+# firebase
+  firebase_core: ^2.15.0
+  firebase_auth:
+  firebase_database: ^10.2.5
+  firebase_messaging: ^14.6.5
+  cloud_firestore:
+
+# for social login
+  google_sign_in:
+  flutter_login_facebook: 1.2.0
+
+# design package
+  dotted_border: ^2.0.0+1
+  syncfusion_flutter_datepicker: ^19.3.53
+  sn_progress_dialog:
+  emoji_picker_flutter: ^1.2.1
+  google_fonts:
+  toast:
+  table_calendar: ^3.0.3
+
+# api call
+  dio: ^4.0.6
+  http: ^0.13.4
+
+# state management
+  get:
+
+# for webview
+  flutter_inappwebview: ^5.4.3+7
+  webview_flutter:
+  url_launcher: 6.0.17
+  flutter_ringtone_player:
+  flutter_keyboard_visibility: ^5.2.0
+  lottie:
+  flutter_uploader: ^3.0.0-beta.4
+  flutter_html: 3.0.0-alpha.2
+  shared_preferences: ^2.0.6
+  email_validator: 2.0.1
+  flutter_local_notifications: 9.2.0
+  carousel_slider: ^4.2.1
+  permission_handler:
+  flutter_background: ^1.1.0
+  just_audio:
+  web_browser_detect: ^2.0.2
+  platform_device_id: ^1.0.1
+  universal_io: ^2.0.4
+  string_validator:
+
+#  unnecessary package
+#  flutter_svg:
+#  stop_watch_timer: 2.0.0
+#  eraser: ^2.0.1
+#  loadmore: 2.0.1
+#  convert: 3.0.1
+
+dependency_overrides:
+  flutter_webrtc: 0.8.5
+  webrtc_interface: 1.0.3
+  plugin_platform_interface: ^2.0.0
+  shared_preferences_android: 2.0.10
+  firebase_core_platform_interface: ^4.8.0
+  intl: 0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name:
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/homeScreenImages/
+    - assets/moreScreenImages/
+    - assets/loginScreenImages/
+    - assets/detailScreenImages/
+    - assets/specialityScreenImages/
+    - assets/makeAppointmentScreenImages/
+    - assets/doctorSubscriptionPage/
+    - assets/braintree/
+    - assets/uploadRecipt/
+    - assets/home/
+    - assets/lottie/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

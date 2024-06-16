@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92081088468",
+    "firebase_url": "https://doctoronhome-4e134-default-rtdb.firebaseio.com",
+    "project_id": "doctoronhome-4e134",
+    "storage_bucket": "doctoronhome-4e134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92081088468:android:269fd1ed35f1dc787e1841",
+        "android_client_info": {
+          "package_name": "com.doctor.home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92081088468-8gvo6j84cd6ner7j0pdcvf2v7kf2r8r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doctor.home",
+            "certificate_hash": "539fa6eab7057c3c6fb8db2a5291d61b4b3fadc7"
+          }
+        },
+        {
+          "client_id": "92081088468-l0po5cjd4itishact9sfj1ab9jb27p43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_4_Xv-m7oYed5WjwVL30ZafU6wFCxb1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92081088468-l0po5cjd4itishact9sfj1ab9jb27p43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
